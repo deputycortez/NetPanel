@@ -29,37 +29,42 @@ NetPanel Access Panel is a lightweight intranet access panel designed to help us
 - **Backend**: Node.js (Express.js)
 - **Authentication**: JWT (JSON Web Tokens)
 
-## Folder Structure
-netpanel/
-├── backend/                # Backend files
-│   ├── controllers/        # Core logic for routes
-│   │   └── authController.js
-│   ├── middleware/         # Middleware (e.g., authentication)
-│   │   └── authMiddleware.js
-│   ├── models/             # Mock data for users
-│   │   └── userModel.js
-│   ├── routes/             # Backend routes
-│   │   ├── authRoutes.js
-│   │   └── dashboardRoutes.js
-│   ├── server.js           # Entry point for the backend
-│   ├── .env                # Environment variables
-│   ├── package.json        # Backend dependencies
-│   └── LICENSE             # Project license
-│
-├── frontend/               # Frontend files
-│   ├── assets/             # Static files
-│   │   ├── css/
-│   │   │   └── style.css   # Global styles
-│   │   └── js/
-│   │       ├── auth.js     # Login logic
-│   │       ├── dashboard.js# Dashboard logic
-│   │       └── chat.js     # Chat assistant logic
-│   ├── pages/              # HTML pages
-│   │   ├── index.html      # Login page
-│   │   └── dashboard.html  # Dashboard page
-│   └── LICENSE             # Project license
-├── LICENSE                 # Project license
-├── README.md               # Project description and usage guide
-├── .gitignore              # Files and folders to ignore
-└── package.json            # Backend and global dependencies
-## Setup Steps
+ **Setup Steps**
+
+ 1. **Clone the repository:**
+
+    ```bash
+    git clone <repository-url && cd netpanel
+    ```
+
+ 2. **Install backend dependencies:**
+
+    ```bash
+    cd backend
+    npm install
+    ```
+
+ 3. **Install frontend dependencies:**
+
+    ```bash
+    cd ../frontend
+    npm install -g http-server
+    ```
+
+ 4. **Run the project:**
+
+    * **Start the backend:**
+
+      ```bash
+      cd backend && node server.js
+      ```
+
+    * **Serve the frontend:**
+
+      ```bash
+      cd ../frontend && http-server
+      ```
+
+ 5. **Access the application:**
+
+    Open your browser and navigate to: `http://localhost:8080/pages/index.html`
