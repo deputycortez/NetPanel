@@ -1,4 +1,5 @@
-# NetPanel Access Panel
+# NetPanel Access Panel v1.00
+# **UNFINISHED PROJECT**
 
 ## Description
 NetPanel Access Panel is a lightweight intranet access panel designed to help users manage their home networks with ease. It features secure JWT authentication, role-based access control, and a modern dashboard that provides an overview of network activity, bandwidth usage, and more.
