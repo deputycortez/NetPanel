@@ -88,11 +88,19 @@ NetPanel Access Panel is a lightweight intranet access panel designed to help us
 
 ---
 
-## Development
-
 ### Setting Up Environment Variables
 1. Create a `.env` file in the `backend` directory with the following:
-   ```env
-   PORT=3000
-   SECRET_KEY=your-secret-key-here
+**env**
+ `PORT=3000
+  SECRET_KEY=your-secret-key-here`
 
+---
+
+**Troubleshooting**
+
+ * **Problem:** Backend server fails to start.
+    * **Solution:**  Ensure Node.js and npm are installed correctly. Check the `server.js` file for any errors.
+ * **Problem:** Frontend files not loading.
+    * **Solution:** Verify that `http-server` is running and serving files from the correct directory.
+ * **Problem:**  Application displays unexpected behavior.
+    * **Solution:** Open your browser's developer console to inspect for JavaScript errors or network issues.
