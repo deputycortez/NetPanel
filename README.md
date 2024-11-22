@@ -68,3 +68,31 @@ NetPanel Access Panel is a lightweight intranet access panel designed to help us
  5. **Access the application:**
 
     Open your browser and navigate to: `http://localhost:8080/pages/index.html`
+
+    ---
+
+## Usage
+
+### Default Credentials
+- **Admin**:
+  - Username: `admin`
+  - Password: `admin123`
+- **User**:
+  - Username: `user`
+  - Password: `user123`
+
+### Workflow
+1. Navigate to the **login page**.
+2. Enter credentials to access the **dashboard**.
+3. Use the **chat assistant** for guidance.
+
+---
+
+## Development
+
+### Setting Up Environment Variables
+1. Create a `.env` file in the `backend` directory with the following:
+   ```env
+   PORT=3000
+   SECRET_KEY=your-secret-key-here
+
