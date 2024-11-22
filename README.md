@@ -23,7 +23,6 @@ NetPanel Access Panel is a lightweight intranet access panel designed to help us
 - **Bandwidth Usage Monitor**: Real-time bandwidth monitoring for each connected device.
 - **User Management**: Admin features for adding, editing, and removing users, as well as assigning roles.
 - **Alerts and Notifications**: Get notified about unusual network activities.
-- **Interactive Chat Assistant**: A floating chat widget to assist users.
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js (Express.js)
@@ -84,7 +83,6 @@ NetPanel Access Panel is a lightweight intranet access panel designed to help us
 ### Workflow
 1. Navigate to the **login page**.
 2. Enter credentials to access the **dashboard**.
-3. Use the **chat assistant** for guidance.
 
 ---
 
